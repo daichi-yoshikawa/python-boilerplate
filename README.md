@@ -40,7 +40,7 @@ $ pip --no-cache-dir install --upgrade <package-name>
 ## (Option2) Create virtualenv
 ### Step 1 Install requisites
 ```
-$ sudo apt-get install git gcc make openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev zlib1g-dev
+$ sudo apt-get install git gcc make openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev zlib1g-dev libffi-dev
 ```
 
 ### Step 1.5 Install tkinter(This may be needed to use matplotlib in virtualenv)
