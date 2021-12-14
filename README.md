@@ -64,6 +64,9 @@ if [ -d "${PYENV_ROOT}" ]; then
   eval "$(pyenv init -)"
 fi
 ```
+** Dec 2021 Update **
+As mentioned below, you may need to use **eval "$(pyenv init --path)"** instead of **eval $(pyenv init -)** due to software update.
+https://stackoverflow.com/questions/33321312/cannot-switch-python-with-pyenv
 
 ### Step 4 Enable update of .bashrc
 ```
